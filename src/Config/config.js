@@ -7,7 +7,7 @@ const API_KEY = "9f1ffd64abd4bde18614fd9087d87d71";
 // An image URL looks like this example:
 // http://image.tmdb.org/t/p/w780/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg
 
-const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/";
+const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 
 //Sizes: w300, w780, w1280, original
 const BACKDROP_SIZE = "w1280";
