@@ -3,7 +3,6 @@ import $ from "jquery";
 export const LeftArrow = node => {
   var move = node.current;
   var margin = parseInt($(move).css("margin-left"));
-  console.log(margin);
 
   if (window.matchMedia("(min-width: 768px)").matches) {
     if (margin < 0) {
@@ -31,7 +30,6 @@ export const LeftArrow = node => {
 export const RightArrow = node => {
   var move = node.current;
   var margin = parseInt($(move).css("margin-left"));
-  console.log(margin);
 
   if (window.matchMedia("(min-width: 768px)").matches) {
     if (margin > -1650) {
