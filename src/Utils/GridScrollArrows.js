@@ -4,7 +4,6 @@ export const LeftGridArrow = node => {
   var move = node.current;
   var width = window.innerWidth;
   var pixelWidth = width + "px";
-  console.log(pixelWidth);
   $(move).animate(
     {
       scrollLeft: "-=" + pixelWidth
