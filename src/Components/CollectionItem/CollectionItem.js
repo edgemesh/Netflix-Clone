@@ -11,6 +11,9 @@ const CollectionItem = ({ item,movies,tvshow,history}) => {
   const para = Truncate(overview, 155, " ..read more");
   var titlePath = movies ? FixString(title) : null;
   var namePath = tvshow ? FixString(name) : null;
+
+  if (!backdrop_path) return null
+
   return (
     <div className="collection-item">
       <div onClick={() => {
